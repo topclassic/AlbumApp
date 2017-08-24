@@ -7,12 +7,13 @@ import {
 } from 'react-native';
 
 // create a component
-const Button = () => {
+// Receive parameter url from onPress
+const Button = ({onPress, children}) => {
 
     const {textStyle, buttonStyle} = style
     return (
-        <TouchableOpacity style={buttonStyle}>
-            <Text style={textStyle}>Click</Text>
+        <TouchableOpacity style={buttonStyle} onPress={onPress}>
+            <Text style={textStyle}>{children}</Text>
         </TouchableOpacity>
     );
 };
