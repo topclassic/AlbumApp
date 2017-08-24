@@ -5,20 +5,19 @@
  */
 
 import React, { Component } from 'react';
+import {Provider} from 'react-redux'
+import Header from './components/Header'
+import AlbumList from './components/AlbumList'
+
 import {
   AppRegistry,
   View
 } from 'react-native';
 
-import {Provider} from 'react-redux'
-import Header from './components/Header'
-import Albumlist from './components/Albumlist'
-
-
 const App = () =>(
     <View>
     <Header herderText={'Counter'}/>
-    <Albumlist/>
+    <AlbumList/>
     </View>
 )
 
