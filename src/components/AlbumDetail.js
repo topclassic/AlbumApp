@@ -1,6 +1,7 @@
 //import liraries
 import React, { Component } from 'react';
 import Card from './Card'
+import CardSection from './CardSection'
 import { 
     Text, 
     StyleSheet 
@@ -10,9 +11,17 @@ const AlbumDetail = (props) =>{
     const {title} = props.album
     return(
         <Card>
-            <Text>
-                {title}
-            </Text>
+            <CardSection>
+                <Text>
+                    {title}
+                </Text>
+            </CardSection>
+
+            <CardSection>
+                <Text>
+                    {title}
+                </Text>
+            </CardSection>
         </Card>
     )
 }
