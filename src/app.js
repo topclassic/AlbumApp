@@ -15,8 +15,8 @@ import {
 } from 'react-native';
 
 const App = () =>(
-    <View>
-    <Header herderText={'Counter'}/>
+    <View style={{flex:1}}>
+    <Header herderText={'Albums'}/>
     <AlbumList/>
     </View>
 )
