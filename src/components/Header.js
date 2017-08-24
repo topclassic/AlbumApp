@@ -6,13 +6,13 @@ import{
 } from 'react-native'
 
 
-
 const Header = (props) => {
     const { textStyle, viewStyle } = styles
+    const { herderText } = props
 
     return (
         <View style={viewStyle}>
-        <Text style={textStyle}>{props.herderText}</Text>
+        <Text style={textStyle}>{herderText}</Text>
         </View>
     )
 }

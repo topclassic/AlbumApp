@@ -17,7 +17,7 @@ import Albumlist from './components/Albumlist'
 
 const App = () =>(
     <View>
-    <Header herderText={'Counter!'}/>
+    <Header herderText={'Counter'}/>
     <Albumlist/>
     </View>
 )
