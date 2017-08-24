@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import Card from './Card'
 import CardSection from './CardSection'
+import Button from './Button'
 import {
     Image, 
     View,
@@ -25,6 +26,9 @@ const AlbumDetail = ({album}) =>{
             </CardSection>
             <CardSection>
             <Image style={imageStyle} source={{uri: image}}/>
+            </CardSection>
+            <CardSection>
+                <Button/>
             </CardSection>
         </Card>
     )
