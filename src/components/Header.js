@@ -5,6 +5,8 @@ import{
     View
 } from 'react-native'
 
+
+
 const Header = (props) => {
     const { textStyle, viewStyle } = styles
 
